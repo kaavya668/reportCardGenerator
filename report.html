@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPORT CARD</title>
+</head>
+<script src="reportCard.js">
+
+</script>
+<style>
+    body{
+        background-color: #CDBBA7;
+    }
+    table{
+        background-color: #F4DFD0;
+        margin: 15px;
+    }
+    .color{
+        background-color: #FDEFEF;
+    }
+    button{
+        background-color: #DAD0C2;
+        border-radius: 15px;
+    }
+
+</style>
+<body>
+    <center>
+    <h1>REPORT CARD</h1>
+
+        <table border="3" >
+            <tr>
+                <th rowspan="2">Name</th><th colspan="4">Score</th>
+            </tr>
+            <tr>
+                <td>English</td><td>Math</td><td>Science</td><td>MFL</td>
+            </tr>
+            <tr class="color">
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="s1"></td>
+                <td><input type="text" id="s2"></td>
+                <td><input type="text" id="s3"></td>
+                <td><input type="text" id="s4"></td>
+            </tr>
+        </table>
+
+        <button onclick="hehe()">ENTER</button>
+
+        <table border="3">
+            <tr>
+                <th>Name</th><th>Percentage</th><th>Grade</th><th>Pass/Fail</th>
+            </tr>
+            <tr class="color">
+                <Td id="n1">name</Td>
+                <td id="r1">Percent</td> 
+                <td id="r2">Grade</td>
+                <td id="r3">Pass/Fail</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
